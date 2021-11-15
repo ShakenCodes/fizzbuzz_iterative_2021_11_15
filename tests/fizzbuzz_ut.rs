@@ -9,5 +9,6 @@ mod tests {
         assert_eq!("fizz", fizzbuzz(3));
         assert_eq!("4", fizzbuzz(4));
         assert_eq!("buzz", fizzbuzz(5));
+        assert_eq!("fizz", fizzbuzz(6));
     }
 }
