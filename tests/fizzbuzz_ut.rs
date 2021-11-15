@@ -1,9 +1,9 @@
 #[cfg(test)]
 mod tests {
-    // use fizzbuzz::fizzbuzz;
+    use fizzbuzz::fizzbuzz;
 
     #[test]
-    fn test_pass() {
-        assert_eq!(0, 0);
+    fn test_fizzbuzz() {
+        assert_eq!("1", fizzbuzz(1));
     }
 }

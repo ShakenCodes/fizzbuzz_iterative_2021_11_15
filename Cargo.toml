@@ -1,5 +1,5 @@
 [package]
-name = "fizzbuzz_iterative_2021_11_15"
+name = "fizzbuzz"
 version = "0.1.0"
 edition = "2021"
 
