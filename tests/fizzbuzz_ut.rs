@@ -18,5 +18,6 @@ mod tests {
         assert_eq!("fizz", fizzbuzz(12));
         assert_eq!("13", fizzbuzz(13));
         assert_eq!("14", fizzbuzz(14));
+        assert_eq!("fizzbuzz", fizzbuzz(15));
     }
 }
