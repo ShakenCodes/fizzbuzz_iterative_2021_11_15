@@ -1,3 +1,3 @@
-pub fn fizzbuzz(_: u32) -> String {
-    "1".to_string()
+pub fn fizzbuzz(n: u32) -> String {
+    n.to_string()
 }
