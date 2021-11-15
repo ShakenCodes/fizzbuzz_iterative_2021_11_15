@@ -1,7 +1,6 @@
 pub fn fizzbuzz(n: u32) -> String {
-    let mut result = divisible_by_three_is_fizz(n);
-    result.push_str( &divisible_by_five_is_buzz(n));
-    not_fizz_or_buzz_is_number(result, n)
+    let text_result = divisible_by_three_is_fizz(n) + &divisible_by_five_is_buzz(n);
+    not_fizz_or_buzz_is_number(text_result, n)
 }
 
 fn divisible_by_three_is_fizz(n: u32) -> String {
