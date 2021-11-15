@@ -19,5 +19,19 @@ mod tests {
         assert_eq!("13", fizzbuzz(13));
         assert_eq!("14", fizzbuzz(14));
         assert_eq!("fizzbuzz", fizzbuzz(15));
+        assert_eq!("16", fizzbuzz(16));
+        assert_eq!("17", fizzbuzz(17));
+        assert_eq!("fizz", fizzbuzz(18));
+        assert_eq!("19", fizzbuzz(19));
+        assert_eq!("buzz", fizzbuzz(20));
+        assert_eq!("fizz", fizzbuzz(21));
+        assert_eq!("22", fizzbuzz(22));
+        assert_eq!("23", fizzbuzz(23));
+        assert_eq!("fizz", fizzbuzz(24));
+        assert_eq!("buzz", fizzbuzz(25));
+        assert_eq!("26", fizzbuzz(26));
+        assert_eq!("fizz", fizzbuzz(27));
+        assert_eq!("28", fizzbuzz(28));
+        assert_eq!("29", fizzbuzz(29));
     }
 }
